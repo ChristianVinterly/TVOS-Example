@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAE8D3031BA5CEBC0003A4DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE8D3021BA5CEBC0003A4DF /* main.m */; };
+		AAE8D3061BA5CEBC0003A4DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE8D3051BA5CEBC0003A4DF /* AppDelegate.m */; };
+		AAE8D3091BA5CEBC0003A4DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE8D3081BA5CEBC0003A4DF /* ViewController.m */; };
+		AAE8D30C1BA5CEBC0003A4DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAE8D30A1BA5CEBC0003A4DF /* Main.storyboard */; };
+		AAE8D30E1BA5CEBC0003A4DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAE8D30D1BA5CEBC0003A4DF /* Assets.xcassets */; };
+		AAE8D3171BA5D0490003A4DF /* MovieCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE8D3161BA5D0490003A4DF /* MovieCollectionViewCell.m */; };
+		AAE8D31A1BA5D2BA0003A4DF /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE8D3191BA5D2BA0003A4DF /* Movie.m */; };
+		AAE8D31D1BA5E2710003A4DF /* MovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE8D31C1BA5E2710003A4DF /* MovieViewController.m */; };
+		AAE8D3231BA5E3840003A4DF /* RestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE8D3221BA5E3840003A4DF /* RestHandler.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AAE8D2FE1BA5CEBC0003A4DF /* TVOSExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVOSExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAE8D3021BA5CEBC0003A4DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAE8D3041BA5CEBC0003A4DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AAE8D3051BA5CEBC0003A4DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AAE8D3071BA5CEBC0003A4DF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AAE8D3081BA5CEBC0003A4DF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AAE8D30B1BA5CEBC0003A4DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAE8D30D1BA5CEBC0003A4DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAE8D30F1BA5CEBC0003A4DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAE8D3151BA5D0490003A4DF /* MovieCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieCollectionViewCell.h; sourceTree = "<group>"; };
+		AAE8D3161BA5D0490003A4DF /* MovieCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieCollectionViewCell.m; sourceTree = "<group>"; };
+		AAE8D3181BA5D2BA0003A4DF /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
+		AAE8D3191BA5D2BA0003A4DF /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
+		AAE8D31B1BA5E2710003A4DF /* MovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieViewController.h; sourceTree = "<group>"; };
+		AAE8D31C1BA5E2710003A4DF /* MovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieViewController.m; sourceTree = "<group>"; };
+		AAE8D3211BA5E3840003A4DF /* RestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestHandler.h; sourceTree = "<group>"; };
+		AAE8D3221BA5E3840003A4DF /* RestHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestHandler.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAE8D2FB1BA5CEBC0003A4DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAE8D2F51BA5CEBC0003A4DF = {
+			isa = PBXGroup;
+			children = (
+				AAE8D3001BA5CEBC0003A4DF /* TVOSExample */,
+				AAE8D2FF1BA5CEBC0003A4DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAE8D2FF1BA5CEBC0003A4DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAE8D2FE1BA5CEBC0003A4DF /* TVOSExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAE8D3001BA5CEBC0003A4DF /* TVOSExample */ = {
+			isa = PBXGroup;
+			children = (
+				AAE8D3041BA5CEBC0003A4DF /* AppDelegate.h */,
+				AAE8D3051BA5CEBC0003A4DF /* AppDelegate.m */,
+				AAE8D3211BA5E3840003A4DF /* RestHandler.h */,
+				AAE8D3221BA5E3840003A4DF /* RestHandler.m */,
+				AAE8D31F1BA5E2EB0003A4DF /* Models */,
+				AAE8D3201BA5E2F90003A4DF /* Views */,
+				AAE8D31E1BA5E2DC0003A4DF /* Controllers */,
+				AAE8D30A1BA5CEBC0003A4DF /* Main.storyboard */,
+				AAE8D30D1BA5CEBC0003A4DF /* Assets.xcassets */,
+				AAE8D30F1BA5CEBC0003A4DF /* Info.plist */,
+				AAE8D3011BA5CEBC0003A4DF /* Supporting Files */,
+			);
+			path = TVOSExample;
+			sourceTree = "<group>";
+		};
+		AAE8D3011BA5CEBC0003A4DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAE8D3021BA5CEBC0003A4DF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AAE8D31E1BA5E2DC0003A4DF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AAE8D3071BA5CEBC0003A4DF /* ViewController.h */,
+				AAE8D3081BA5CEBC0003A4DF /* ViewController.m */,
+				AAE8D31B1BA5E2710003A4DF /* MovieViewController.h */,
+				AAE8D31C1BA5E2710003A4DF /* MovieViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		AAE8D31F1BA5E2EB0003A4DF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AAE8D3181BA5D2BA0003A4DF /* Movie.h */,
+				AAE8D3191BA5D2BA0003A4DF /* Movie.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		AAE8D3201BA5E2F90003A4DF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AAE8D3151BA5D0490003A4DF /* MovieCollectionViewCell.h */,
+				AAE8D3161BA5D0490003A4DF /* MovieCollectionViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAE8D2FD1BA5CEBC0003A4DF /* TVOSExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAE8D3121BA5CEBC0003A4DF /* Build configuration list for PBXNativeTarget "TVOSExample" */;
+			buildPhases = (
+				AAE8D2FA1BA5CEBC0003A4DF /* Sources */,
+				AAE8D2FB1BA5CEBC0003A4DF /* Frameworks */,
+				AAE8D2FC1BA5CEBC0003A4DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TVOSExample;
+			productName = TVOSExample;
+			productReference = AAE8D2FE1BA5CEBC0003A4DF /* TVOSExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAE8D2F61BA5CEBC0003A4DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Christian Lysne";
+				TargetAttributes = {
+					AAE8D2FD1BA5CEBC0003A4DF = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = AAE8D2F91BA5CEBC0003A4DF /* Build configuration list for PBXProject "TVOSExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAE8D2F51BA5CEBC0003A4DF;
+			productRefGroup = AAE8D2FF1BA5CEBC0003A4DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAE8D2FD1BA5CEBC0003A4DF /* TVOSExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAE8D2FC1BA5CEBC0003A4DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE8D30E1BA5CEBC0003A4DF /* Assets.xcassets in Resources */,
+				AAE8D30C1BA5CEBC0003A4DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAE8D2FA1BA5CEBC0003A4DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE8D3091BA5CEBC0003A4DF /* ViewController.m in Sources */,
+				AAE8D31D1BA5E2710003A4DF /* MovieViewController.m in Sources */,
+				AAE8D3061BA5CEBC0003A4DF /* AppDelegate.m in Sources */,
+				AAE8D31A1BA5D2BA0003A4DF /* Movie.m in Sources */,
+				AAE8D3031BA5CEBC0003A4DF /* main.m in Sources */,
+				AAE8D3231BA5E3840003A4DF /* RestHandler.m in Sources */,
+				AAE8D3171BA5D0490003A4DF /* MovieCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AAE8D30A1BA5CEBC0003A4DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAE8D30B1BA5CEBC0003A4DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAE8D3101BA5CEBC0003A4DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		AAE8D3111BA5CEBC0003A4DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAE8D3131BA5CEBC0003A4DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = TVOSExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.christianlysne.TVOSExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AAE8D3141BA5CEBC0003A4DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = TVOSExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.christianlysne.TVOSExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAE8D2F91BA5CEBC0003A4DF /* Build configuration list for PBXProject "TVOSExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE8D3101BA5CEBC0003A4DF /* Debug */,
+				AAE8D3111BA5CEBC0003A4DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAE8D3121BA5CEBC0003A4DF /* Build configuration list for PBXNativeTarget "TVOSExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE8D3131BA5CEBC0003A4DF /* Debug */,
+				AAE8D3141BA5CEBC0003A4DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAE8D2F61BA5CEBC0003A4DF /* Project object */;
+}
