@@ -111,7 +111,7 @@
     if (context.nextFocusedView != nil) {
         
         MovieCollectionViewCell *cell = (MovieCollectionViewCell *)context.nextFocusedView;
-        [self animateSizeOfCell:cell scale:1.05];
+        [self animateSizeOfCell:cell scale:1.0];
     }
 }
 
