@@ -105,26 +105,14 @@
     if (context.previouslyFocusedView != nil) {
         
         MovieCollectionViewCell *cell = (MovieCollectionViewCell *)context.previouslyFocusedView;
-        [self animateSizeOfCell:cell scale:1.0];
+        cell.titleLabel.font = [UIFont systemFontOfSize:17];
     }
     
     if (context.nextFocusedView != nil) {
         
         MovieCollectionViewCell *cell = (MovieCollectionViewCell *)context.nextFocusedView;
-        [self animateSizeOfCell:cell scale:1.0];
+        cell.titleLabel.font = [UIFont boldSystemFontOfSize:17];
     }
-}
-
-- (void)animateSizeOfCell:(MovieCollectionViewCell *)cell scale:(CGFloat)scale {
-    
-    CGFloat height = (CGRectGetHeight(self.view.frame)-(2*COLLECTION_VIEW_PADDING))/2;
-    
-    CGRect frame = cell.frame;
-    frame.size = CGSizeMake(height * (9.0/16.0) * scale, height * scale);
-    
-    [UIView animateWithDuration:0.1 animations:^{
-        cell.frame = frame;
-    }];
 }
 
 @end
