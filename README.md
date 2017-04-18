@@ -5,7 +5,7 @@ Example Apple TV app showing IMDB movies
 
 Based upon tutorial from Mark Price at https://www.youtube.com/watch?v=XmLdEcq-QNI&feature=youtu.be&a
 
-#Improvements
+# Improvements
 @insanoid: Added focus animation property to images
 
 # License
